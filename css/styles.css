@@ -222,7 +222,7 @@ button {
   width: 100%;
   height: 100%;
   background-color: #ffffff;
-  padding: 24px 24px 40px 16px;
+  padding: 72px 24px 40px 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -242,8 +242,6 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 72px 15px 40px 15px;
-  position: relative;
   height: 100%;
 }
 
@@ -270,7 +268,7 @@ button {
   justify-content: left;
 }
 .mobile-menu-item {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 .mobile-menu-link {
   font-weight: 700;
@@ -284,16 +282,16 @@ button {
 }
 
 .mobile-address-list {
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .mobile-address-telephone {
-  padding-bottom: 24px;
+  margin-bottom: 24px;
   color: #4d5ae5;
 }
 
 .mobile-address-link.mail {
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   color: #434455;
 }
 
@@ -709,7 +707,7 @@ button {
   }
 
   .advantages-item {
-    flex-basis: calc((100% - 48px) / 2);
+    flex-basis: calc((100% - 24px) / 2);
   }
 }
 
@@ -838,7 +836,7 @@ button {
   }
 
   .team-item {
-    flex-basis: calc((100% - 48px) / 2);
+    flex-basis: calc((100% - 24px) / 2);
   }
 }
 
@@ -862,8 +860,8 @@ button {
 }
 
 .portfolio-section {
-  margin-top: 96px;
-  margin-bottom: 96px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .portfolio-section-header {
@@ -925,8 +923,8 @@ button {
 
 @media screen and (min-width: 1158px) {
   .portfolio-section {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .portfolio-list {
@@ -977,10 +975,7 @@ button {
   display: flex;
   align-items: baseline;
   flex-wrap: wrap;
-}
-
-.footer-left {
-  margin-bottom: 72px;
+  row-gap: 72px;
 }
 
 .footer-logo {
@@ -1015,7 +1010,6 @@ button {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-bottom: 72px;
 }
 
 .footer-right {
@@ -1028,7 +1022,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   text-align: center;
 }
 
